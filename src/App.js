@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState } from 'react';
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -9,8 +9,11 @@ import DriverTripsPage from './pages/DriverTripsPage';
 import TripTrackingPage from './pages/TripTrackingPage';
 import Maintabs from './components/tabs/Maintabs';
 import Appbar from './components/Appbar/Appbar';
+import AuthState from './context/AuthState';
+import AuthContext from './context/AuthContext';
 
 const App = () => {
+  const {isAuthenticated}  = createContext(AuthContext)
   const [routes, setRoutes] = useState([]);
   const [drivers, setDrivers] = useState([]);
   useEffect(() => {
@@ -33,11 +36,16 @@ const App = () => {
   }, []);
   return (
     <>
-    <Appbar/>
+    {
+      isAuthenticated?
+      <Appbar />
+      :
+      null
+    }
       <Routes>
         
-       {/* <Route path='/' element={<PrivateRoute><Maintabs/></PrivateRoute>}/> */}
-       <Route path='/' element={<Maintabs/>}/>
+       <Route path='/' element={<PrivateRoute><Maintabs/></PrivateRoute>}/>
+       {/* <Route path='/' element={<Maintabs/>}/> */}
         <Route path="/login" element={<LoginPage />} />
         <Route path="/employee/routes" element={<PrivateRoute><EmployeeRoutesPage routes={routes} drivers={drivers}/></PrivateRoute>} />
         <Route path="/driver/trips" element={<PrivateRoute><DriverTripsPage /></PrivateRoute>} />
