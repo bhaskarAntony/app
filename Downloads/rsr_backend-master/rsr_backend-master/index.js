@@ -7,7 +7,7 @@ const cors = require('cors')
 
 dotenv.config();
 
-const app = express();
+const app = express(); //socket
 const server = createServer(app);
 const io = new Server(server);
 
