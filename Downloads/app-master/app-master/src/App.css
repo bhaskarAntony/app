@@ -1,0 +1,28 @@
+.card .form-control{
+  padding: 15px;
+  background-color: #F5F7F8;
+  border-radius: 100px;
+}
+
+/* //texts */
+.text-main{
+  color: #0F67B1;
+}
+
+.bg-light1{
+  background-color: #F5F7F8;
+}
+
+.main-btn{
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #0F67B1;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.main-btn:hover{
+  opacity: 0.8;
+}

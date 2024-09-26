@@ -1,0 +1,32 @@
+.login-container{
+    min-height: 100vh;
+}
+.ride{
+    min-height: 100vh;
+
+}
+.driver-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+.book-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(45deg, #4828d8, #931ccf);
+    color: #fff;
+    font-size: 900;
+    font-size: 1.2rem;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root, .css-hip9hq-MuiPaper-root-MuiAppBar-root,
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected, .css-1wrk208-MuiButtonBase-root-MuiIconButton-root {
+    background: linear-gradient(45deg, #4828d8, #931ccf) !important;
+    color: #fff !important;
+}
+.css-1rfw2yr-MuiSvgIcon-root{
+    color: #931ccf !important;
+}
