@@ -1,0 +1,42 @@
+.modal{
+    background-color: transparent;
+}
+.modal-content{
+    /* border-radius: 10px !important; */
+    background-color: #fff !important;
+}
+.dialog-modal{
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.modal-form .form-control{
+    padding: 10px !important;
+    font-size: 1.1em;
+    background-color: transparent;
+    background-color: #3cffd124 !important;
+    border: 2px solid var(--green-light-color);
+}
+.modal-form .form-label{
+    color: var(--green-main-color);;
+}
+.register-icons{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.register-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid var(--green-light-color);;
+    color: var(--green-main-color);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-close{
+    background-color: var(--green-light-color) !important;
+    border-radius: 100px !important;
+    opacity: 1 !important;
+}

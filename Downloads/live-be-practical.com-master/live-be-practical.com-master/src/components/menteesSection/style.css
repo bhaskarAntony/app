@@ -1,0 +1,5 @@
+.mantees{
+    background: radial-gradient(100% 553.63% at 0 0,rgba(26,36,52,.95) 48.78%,rgba(26,36,52,.5) 100%), url('https://bepractical.s3.us-east-2.amazonaws.com/allplaced.jpg') center bottom;
+    min-height: 60vh;
+    border-radius: 20px;
+}

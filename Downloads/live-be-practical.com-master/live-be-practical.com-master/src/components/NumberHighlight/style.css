@@ -1,0 +1,9 @@
+.about-h-card{
+    min-height: 250px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.about-h-card:hover{
+    background: var(--red) !important;
+    transition: background 0.5s ease;
+}

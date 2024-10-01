@@ -1,0 +1,29 @@
+#contact{
+    background-color:var(--gray2);
+    border-radius: 30px;
+}
+.benifits-card{
+    padding: 10px;
+    background-color: var(--gray3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+.benifits-card [class*="bi-"]{
+    color: var(--green-light-color);
+    font-size: 3em !important;
+}
+.contact-form{
+    background-color: var(--main-light-color);
+    padding: 30px;
+}
+@media (max-width:768px){
+    .contact-form{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,17 @@
+.highlight{
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.highlight-card-hero{
+    padding: 15px;
+    text-align: center;
+    color: #fff !important;
+    /* background-color: black; */
+    min-height: 100% !important;
+}
+.highlight-card-hero a:hover{
+    transform: scale(1.1) rotate(360deg);
+    transition: 0.6s;
+
+}

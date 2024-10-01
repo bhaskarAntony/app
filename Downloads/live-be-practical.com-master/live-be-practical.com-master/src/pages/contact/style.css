@@ -1,0 +1,63 @@
+.contact-form{
+    width: 100%;
+    background: #FFF6E9;
+    padding: 20px;
+    margin-top: 30px;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border:2px solid  var(--dark-orange);
+    color: var(--dark-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.banner2{
+    min-height: 300px;
+    background:linear-gradient(45deg, var(--dark-orange), #fb851d67), url(https://bepractical.s3.us-east-2.amazonaws.com/contact.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.contact-card{
+    border-bottom: 4px solid var(--dark-orange) !important;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    cursor: pointer;
+}
+.contact-card::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translateY(90%);
+    z-index: -1;
+    border-radius: 100%;
+    background-color: var(--dark-orange);
+}
+.contact-card:hover::before{
+    transform: translateY(0px) scale(2);
+    /* border-radius: 0px; */
+    transition: 1s;
+}
+.contact-card:hover{
+    color: #fff !important;
+}
+.contact-card i{
+    color: var(--dark-orange) !important;
+}
+.contact-card:hover p, .contact-card:hover i{
+    color: #fff !important;
+}

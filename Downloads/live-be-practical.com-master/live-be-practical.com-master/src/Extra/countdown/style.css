@@ -1,0 +1,12 @@
+.time{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-bottom: 4px solid var(--red);
+    background: repeating-linear-gradient(0deg,#c8c8c8, #c7c7c7 2%, rgb(255, 255, 255) 50%);
+}
+
+.countdown{
+    min-height: 60vh;
+}

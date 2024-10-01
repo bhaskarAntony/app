@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://be-practical.com/sitemap.xml
+Disallow: /src/chat/ZohoChat.js
+Disallow: /src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js
+Disallow: /src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/src/chat/ZohoChat.js

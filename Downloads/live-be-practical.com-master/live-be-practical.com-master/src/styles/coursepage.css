@@ -1,0 +1,76 @@
+.course-hero{
+    background-color: #1a1a1a;
+}
+.course-points ul li{
+    margin-top: 20px;
+}
+.course-points ul, .course-cartificate ul{
+    list-style-image: url('../images/check-mark.png');
+}
+.main-lan-container{
+    border-radius: 30px;
+}
+.share-btn{
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+}
+.share-btn:hover{
+    transform: scale(0.9);
+    transition: 0.6s;
+}
+.whatsapp-share{
+    background-color: rgb(7, 161, 15);
+}
+.facebook-share{
+    background-color: rgb(7, 43, 161);
+}
+.twitter-share{
+    background-color: rgb(102, 7, 161);
+}
+.telegram-share{
+    background-color: rgb(7, 120, 161);
+}
+.c-img{
+    position: sticky !important;
+    top: 0 !important;
+}
+.btn-text{
+    font-size: 0.8rem;
+}
+.nav-tabs{
+    justify-content: center;
+}
+.nav-tabs .nav-item{
+    padding: 10px;
+}
+.nav-tabs .nav-link{
+    border: none !important;
+    font-size: 1.2rem;
+    color: #000;
+    border-radius: 100px !important;
+    text-wrap: nowrap;
+}
+.nav-link:hover{
+    background-color: #dbdbdb !important;
+    color: #000 !important;
+}
+.nav-tabs .active{
+    border: none;
+    /* border-bottom: 3px solid #000 !important; */
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: 0.6s !important;
+}
+@media (max-width:768px){
+    .course-hero-video{
+        min-height: fit-content;
+    }
+    .nav-tabs .nav-link {
+        font-size: 0.9rem;
+    }
+}

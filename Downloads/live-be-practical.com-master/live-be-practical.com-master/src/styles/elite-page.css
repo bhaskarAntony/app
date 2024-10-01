@@ -1,0 +1,105 @@
+.elite-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: url(https://assets.website-files.com/64f721ea7cb41a6156cafeca/64f85c84623a74c3a8df7130_Hero%20Bg.png) no-repeat center; */
+    background-size: cover;
+    background-color: #0f0f0f;
+    min-height: fit-content;
+}
+.course-card{
+    background-color: #191a1e;
+    border-radius: 14px 14px 20px 20px;
+    min-height: 300px;
+    /* margin-bottom: 40px; */
+}
+.java-course, .best-card{
+    background: linear-gradient(325deg, #303030e4, #06060685, #6d6d6d82);
+}
+.java-right{
+    height: 100%;
+}
+.elite-heading{
+    font-size: 4rem;
+}
+.course-card .elite-course-btn{
+    /* background: linear-gradient(45deg, rgb(255, 171, 15), rgb(26, 20, 10)) !important;  */
+    background: #282828;
+}
+.elite-devider{
+    background: linear-gradient(45deg, var(--red), #fffffe) !important; 
+    height: 5px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.elite-main-page{
+    background-color: #0d0d0d;
+}
+.elite-dark-2{
+    background-color: #2d2d2d;
+}
+.elite-g-text{
+    background: linear-gradient(45deg, #FDB931, #FDB931, #050505) !important; 
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+}
+.elite-g2-text{
+    background: linear-gradient(45deg, rgb(107, 15, 255), #f7f7ec) !important; 
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+}
+.elite-yellow{
+    color: #f9e166;
+}
+.elite-btn{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 100px;
+    font-size: 1.3rem;
+    color: #1f1f1f;
+    background:linear-gradient(45deg, var(--red), #fffffe)!important; 
+    text-transform: uppercase;
+}
+.elite-best{
+    list-style-type: none;
+}
+.elite-best li{
+    background-color: #5f5f5f5f !important;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* elite features  */
+.elite-page-card{
+    padding: 10px;
+    background-color: #1d1c1cf9;
+    color: #fff;
+    min-height: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.highlight-card{
+    background: linear-gradient(45deg, var(--red), #a55cff);
+      position: relative;
+      border-radius: 14px;
+      padding: 2px !important;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.742);
+      margin-bottom: 20px;
+      overflow: hidden;
+      
+}
+.highlight-card-item{
+    z-index: 1;
+    height: 100%;
+    background-color: #191a1e;
+    border-radius: 14px;
+    padding: 15px;
+    color: #fff;
+    min-height: 450px;
+}
+.highlight-card [class*="bi"]{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}

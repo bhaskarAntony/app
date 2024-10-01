@@ -1,0 +1,24 @@
+/* batch table  */
+.table td{
+    background-color: rgb(17, 17, 17)!important;
+    padding: 10px;
+    /* border-radius: 10px; */
+    border: 2px solid #ffffff73;
+    margin-bottom: 2px !important;
+    color: #fff !important;
+}
+.table tr{
+   
+}
+.table{
+    background: linear-gradient(45deg, var(--red), #fffffe) !important; 
+    border-collapse: collapse !important;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 2px solid #fff;
+}
+.table th{
+    /* background: linear-gradient(45deg, var(--red), #ffffff) !important;  */
+    background: #2e2e2e !important;
+    color: #fff !important;
+}

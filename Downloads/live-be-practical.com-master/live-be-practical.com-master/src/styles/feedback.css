@@ -1,0 +1,30 @@
+
+.feedback-card{
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+.feedback::-webkit-scrollbar{
+    display: none;
+}
+.feedback-body{
+    overflow: auto;
+}
+.feedback-header h4{
+    color: var(--blue-color);
+}
+.feedback-header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.rating-container{
+    gap: 10px;
+}
+.read-more-button{
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production 
+#nn
+
+# misc
+.DS_Store
+.env.local
+.env.development    q.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn-error-debug\
+ever ve fixed. add "@babel/plugin-prposal-private-in-object" to your devDependencies to work around this error. this will make this message go away **

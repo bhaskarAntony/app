@@ -1,0 +1,14 @@
+.story-list{
+    overflow: auto;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.story-box{
+    min-width: 100px;
+    min-height: 150px;
+}
+.story-box img, .story-box video{
+    width: 100% !important;
+    border-radius: 10px;
+}

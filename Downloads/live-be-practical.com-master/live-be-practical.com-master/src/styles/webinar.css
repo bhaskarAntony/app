@@ -1,0 +1,61 @@
+.webinar-card{
+  min-width: 320px;
+  border-radius: 10px;
+
+}
+#webinar{
+  display: flex;
+  overflow: auto;
+  gap: 30px;
+ 
+}
+
+.bootcamp-card{
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  min-width: 300px;
+  max-width: 400px;
+  scroll-snap-align: center !important;
+}
+.bootcamp-card .event-info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(transparent, transparent, #ffffff);
+  color: #000;
+ 
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  padding: 10px;
+  visibility: hidden;
+}
+.bootcamp-card:hover .event-info{
+  visibility: visible;
+}
+.bootcamp-card:hover .event-info{ 
+   background: linear-gradient(transparent, #070707);
+   color: #fff;
+}
+.bootcamp-card h3{
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.webinars{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow: auto !important;
+  scroll-snap-type: x mandatory !important;
+}
+.bootcamp-card img{
+  object-fit: cover;
+  height: 100%;
+}

@@ -1,0 +1,48 @@
+.service-card-body{
+    min-height: 300px;
+}
+
+.about-hero{
+    min-height: 100vh;
+}
+.about-numbers{
+    min-height: 60vh;
+    background: linear-gradient(45deg, #170f0a96, #000000d9), url(https://img.freepik.com/free-photo/colleagues-giving-fist-bump_53876-64857.jpg?t=st=1715582396~exp=1715585996~hmac=8d7a3222373eb3fe6db02a87647cea391d3f48751f80f89294d3765abd2db7e8&w=996) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-numbers h1{
+    -webkit-text-stroke: 1px  #000;
+}
+.vision{
+    min-height: 80vh;
+    margin-top: 80px;
+}
+.vision-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* max-width: 350px; */
+    padding: 20px;
+    border-radius: 30px;
+}
+.vision-card-header{
+    min-height: 200px;
+    position: relative;
+}
+.vision-circle{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+    border-radius: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vision-card .vision-circle:nth-child(1){
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    outline: 20px solid #ff5e007a;
+    background-color: #FF5F00;
+}

@@ -1,0 +1,93 @@
+.trending-card{
+    background: linear-gradient(#4d4d4d, #2e2e2e3f);
+    border-radius: 20px;
+    position: relative;
+    min-height: 410px;
+}
+.trending-card:hover{
+    background: linear-gradient(#888888, #9c9a9a3f);
+    transform: scale(0.9);
+    transition: 0.8s;
+}
+.trending-card img{
+   /* animation: anim 0.6s linear infinite; */
+}
+.trending-card:hover  img{
+    animation-play-state: paused;
+    filter: grayscale(0%) !important;
+
+}
+@keyframes anim{
+    0%{
+        filter: grayscale(0%);
+    }
+   
+
+    100%{
+        filter: grayscale(100%);
+    }
+}
+.watching-card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.overlap-watching-card{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    background: linear-gradient(#0000001b, #000);
+}
+.watching-tag{
+    padding: 5px;
+    border: 1px solid #0052bd ;
+    color: #0052bd;
+    background-color: #000;
+    border-radius: 100px;
+    width: fit-content;
+}
+.watching-card:hover .overlap-watching-card{
+    /* filter: blur(50px); */
+    backdrop-filter: blur(5px);
+}
+.movie-play{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #1d85fc, #63c4fc);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+}
+.modal-body{
+    min-height: 400px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #000000e7 !important; */
+    backdrop-filter: blur(5px) !important;
+}
+.modal-backdrop{
+    background-color: transparent !important;
+}
+.modal-content{
+    background-color: #1414145a !important;
+    color: #fff !important;
+    backdrop-filter: blur(10px);
+}
+.btn-close{
+    color: #fff !important;
+    background: url(https://cdn-icons-png.flaticon.com/128/12749/12749159.png) no-repeat center !important;
+    background-size: cover !important;
+} 

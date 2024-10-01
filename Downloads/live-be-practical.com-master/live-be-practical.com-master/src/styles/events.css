@@ -1,0 +1,77 @@
+
+.custom-tabs {
+  display: flex;
+  background-color: #ffffff;
+  border: none;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+/* Style individual tabs */
+.custom-tab {
+  text-align: center;
+ /* Text color of tabs */
+  color: #212020;
+  padding: 20px;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Change the background color of the active tab */
+.custom-tab[aria-selected="true"] {
+  color: var(--red); /* Text color of the active tab */
+  outline: none;
+  border-bottom: 3px solid var(--red);
+}
+
+/* Tab content panel */
+.react-tabs__tab-panel {
+  padding: 20px;
+}
+
+.event-card{
+  background: var(--gray3);
+  border-radius: 20px;
+}
+.event-image img{
+  width: 100%;
+  border-radius: 20px;
+}
+.event-text{
+  border-radius: 20px;
+  color: var(--white-color);
+}
+.event-text .keyword{
+  background-color: rgba(255, 253, 142, 0.144);
+  padding: 10px;
+  color: #fce51a;
+  border-radius: 10px;
+}
+@media (max-width:600px){
+  .event-main{
+    padding: 10px !important;
+  }
+  .event-card{
+    border-radius: 10px;
+  }
+  .react-tabs__tab-panel {
+    padding: 0px;
+  }
+  .event-card::after, .event-card::before, .event-blur{
+    width: 80px;
+    height: 80px;
+  }
+  .custom-tab {
+    padding: 5px;
+  }
+  .event-card h3, .event-card h4, .event-card h5{
+      font-size: 1em;
+  }
+  .event-card button{
+    width: 100% !important;
+  }
+}

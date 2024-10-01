@@ -1,0 +1,23 @@
+
+.course-single-card{
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    
+}
+.course-single-card-header{
+    overflow: hidden;
+}
+.course-single-card .course-single-card-header img{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.course-single-card .list-group-item{
+    padding: 10px !important;
+    background-color: var(--color-info-1);
+    margin-bottom: 10px;
+    border-radius: 4px;
+}

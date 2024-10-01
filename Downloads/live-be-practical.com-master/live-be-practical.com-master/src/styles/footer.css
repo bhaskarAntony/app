@@ -1,0 +1,134 @@
+
+.footer_container{
+    padding: 20px;
+    color: #ffffff;
+    overflow: hidden;
+    background-color:#0c0c0c;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+    text-align:justify;
+    gap: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+.m1 ul{
+    padding: 20px 0px;
+    list-style-type: none;
+}
+.m1 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+
+}
+.m1 ul li a:hover{
+    text-decoration:underline;
+    color:var(--red);
+
+}
+.m1 ul li{
+   margin: 10px;
+  
+
+}
+.m1 ul li a:hover li{
+   border-bottom: 1px solid var(--main-color);
+   width: fit-content;
+
+}
+.right{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.left img{
+    width: 200px;
+    
+}
+
+.m1 h2{
+    text-align: left;
+    position: relative;
+    width: fit-content;
+}
+
+ .m1 h2::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 4px;
+    background-color:var(--main-color);
+    left: 0;
+    bottom: -20px;
+}
+.right h2{
+    text-align: left;
+    position: relative;
+    width: fit-content;
+}
+
+ .right h2::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 4px;
+    background-color:var(--main-color);
+    left: 0;
+    bottom: -20px;
+}
+.right ul li:nth-child(1) {
+    padding: 0;
+}
+.right ul li:nth-child(2) {
+    padding: 0;
+    margin: 10px;
+}
+.right ul li:nth-child(3) {
+    padding: 0;
+}
+.right ul li a i{
+    margin-right: 10px;
+}
+
+
+.right ul li a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1em;
+}
+.right ul li{
+    margin: 10px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.icons [class*="bi"]{
+    font-size: 2em;
+    padding: 1px 5px;
+    border-radius: 100px;
+}
+.icons [class*="bi"]:hover{
+    transform: rotate(-360deg) !important;
+    transition: 0.6s;
+    color: var(--red) !important;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid var(--red);
+    cursor: pointer;
+}
+.right{
+    padding-top: 15px;
+}
+.right ul{
+    padding: 15px;
+}
+
+

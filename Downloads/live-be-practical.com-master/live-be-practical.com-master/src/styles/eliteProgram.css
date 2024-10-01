@@ -1,0 +1,26 @@
+.elite-progarm{
+    background-size: cover;
+    background-color: #F8F8F8;
+}
+.elite-program-card{
+    margin-bottom: 20px;
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #fff;
+
+}
+.elite-program-card:hover{
+   transform: scale(0.9);
+   transition: 0.9s;
+   cursor: pointer;
+}
+@media(max-width:576px){
+    .elite-program-card p{
+        font-size: 1rem !important;
+    }
+}

@@ -1,0 +1,9 @@
+.discount img{
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 100px;
+}

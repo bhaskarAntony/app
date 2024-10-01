@@ -1,0 +1,10 @@
+.course-offering{
+    min-height: 100vh;
+  
+}
+.offering-card img{
+    width: 30%;
+}
+.course-offering-inner{
+    background-color: #0c0c0c;
+}

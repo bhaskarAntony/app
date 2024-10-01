@@ -1,0 +1,70 @@
+
+.about-hero{
+    background-color: var(--hero-dark-green);
+
+}
+
+.about-hero-text{
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #bdbdbd;
+
+}
+.about-hero-text h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+/* .about-hero-text button{
+    border: 0;
+    background-color: var(--main-color);
+    padding: 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+.our-courses-btn{
+    background-color: var(--main-light-color) !important;
+    color: var(--main-color) !important;
+} */
+.light-text{
+    color: #8e8d8d;
+}
+.about-hero-image img{
+    width: 100%;
+}
+.service-card{
+    background: url('../images/wave-haikei-course.svg') no-repeat bottom left;
+    background-size: cover;
+    padding: 10px;
+    background-color: var(--bg-v5-green);
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 30px;
+}
+.service-card h1{
+    color: var(--green-light-color);
+}
+.mision{
+    background-color: var(--main-color);
+    padding: 20px;
+}
+.mision-count{
+    min-height: 200px;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.mision-inner{
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 80vh;
+    padding: 10px;
+    
+}
+@media (max-width:768px){
+    .about-hero-text button{
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+#adwantages{
+    background: var(--blue-light);
+}
+.adwantages-container{
+    min-height: 100vh;
+    padding: 20px 0;
+    background: transparent;
+}
+.adwantage-card{
+    /* min-height:280px; */
+    text-align: center;
+    border-radius: 30px;
+    /* border-bottom: 3px solid var(--red); */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+.adwantage-card:hover{
+    background-color: #ffffff;
+    transform: scale(0.9);
+    transition: 0.5s;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.adwantage-card .adwantage-card-body p{
+    color: #939292;
+}
+.adwantage-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.adwantage-header .icon{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* background-color: var(--gray2) !important; */
+    background-color: #fff;
+    /* border-radius: 60px 10px 60px 10px; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adwantage-header img{
+   max-width: 50px;
+   max-height: 50px;
+}
+.adwantage-btns{
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:768px){
+    .adwantages-container p{
+        font-size: 1em !important;
+    }
+}

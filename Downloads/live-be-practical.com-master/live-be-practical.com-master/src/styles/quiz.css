@@ -1,0 +1,6 @@
+.q-option{
+    padding: 10px;
+    background: var(--blue-light);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

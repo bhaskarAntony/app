@@ -1,0 +1,74 @@
+/* .training-container{}
+.training-card{
+    padding: 10px;
+    min-height: 150px;
+    background-color: #6b6b6b90;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.training-card .header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.training-card .card-body h4{
+    color: var(--main-color);
+}
+.training-card .card-body p{
+    color: #5b5959;
+}
+.training-left{
+    background: var(--dark-orange);
+    min-height: 100%;
+    padding: 100px 30px;
+}
+.training-right{
+    background: linear-gradient(315deg, #000, #00000035), url(https://img.freepik.com/free-photo/red-shirt-group-people-business-conference-modern-classroom-daytime_146671-16291.jpg?size=626&ext=jpg&ga=GA1.1.874872603.1694171926&semt=sph) no-repeat center;
+    background-size: cover;
+
+    min-height: 100%;
+    padding: 50px 10px;
+}
+.training-card img{
+    max-width: 100px;
+    max-height: 100px;
+}
+@media (max-width:768px){
+    .training-card{
+        min-height: fit-content;
+        
+    }
+
+} */
+.training-container{
+    background:#0c0c0c;
+    min-height: 80vh;
+    color: #fff;
+}
+.accordion-item .icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: #49494950;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.accordion-button, .accordion-item{
+    background-color: transparent !important;
+    color: #fff !important;
+   
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.accordion-button:after{
+    mix-blend-mode: multiply;
+}

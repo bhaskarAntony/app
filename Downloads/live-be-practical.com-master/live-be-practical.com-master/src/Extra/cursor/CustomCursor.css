@@ -1,0 +1,14 @@
+.custom-cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    pointer-events: none; /* Ensure that the cursor doesn't interfere with underlying elements */
+    transition: transform 0.2s ease-out;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference; /* Optional: blend mode for a more interesting effect */
+    z-index: 100;
+  }
+  

@@ -1,0 +1,12 @@
+.register-page{
+    min-height: 100vh;
+}
+.home-register .form-control{
+    background-color: #fff !important;
+    border-radius: 10px;
+}
+.home-register .form-control:hover,.home-register .form-control:focus{
+    background-color: #fa630613 !important;
+    border: 1px solid var(--dark-orange);
+    box-shadow: none;
+}
